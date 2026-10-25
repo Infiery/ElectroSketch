@@ -1,0 +1,32 @@
+# Build output and local editor state
+**/bin/
+**/obj/
+artifacts/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Distribute the executable through GitHub Releases.
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# Local projects, personal notes, crash logs, and credentials
+*.ets
+*.est
+*.log
+*.tmp
+notes.json
+NotesImages/
+local-notes/
+release-assets/
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+Thumbs.db
+Desktop.ini
